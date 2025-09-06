@@ -1,0 +1,307 @@
+{
+  "basics": {
+    "name": "Juan Martínez",
+    "label": "Full Stack Developer",
+    "image": "https://avatars.githubusercontent.com/u/12345678?v=4",
+    "email": "juan.martinez@email.com",
+    "phone": "+34 600123456",
+    "url": "https://juanmartinez.dev",
+    "summary": "Apasionado por la tecnología y el desarrollo de soluciones innovadoras en web y software. Experiencia en proyectos multidisciplinarios y liderazgo técnico.",
+    "location": {
+      "address": "Calle Mayor 123",
+      "postalCode": "28001",
+      "city": "Madrid",
+      "countryCode": "ES",
+      "region": "Madrid"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "juanmartinez",
+        "url": "https://linkedin.com/in/juanmartinez"
+      },
+      {
+        "network": "GitHub",
+        "username": "juanmartinezdev",
+        "url": "https://github.com/juanmartinezdev"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "TechNova",
+      "position": "Desarrollador Full Stack",
+      "url": "https://technova.com",
+      "startDate": "2022-02-01",
+      "endDate": null,
+      "summary": "Desarrollo de aplicaciones web modernas y escalables usando tecnologías de vanguardia.",
+      "highlights": [
+        "Implementación de microservicios",
+        "Optimización de rendimiento"
+      ]
+    },
+    {
+      "name": "WebSolutions",
+      "position": "Frontend Developer",
+      "url": "https://websolutions.es",
+      "startDate": "2018-05-01",
+      "endDate": "2022-01-01",
+      "summary": "Diseño y desarrollo de interfaces de usuario atractivas y funcionales.",
+      "highlights": [
+        "Migración a React",
+        "Mejora de accesibilidad"
+      ]
+    },
+    {
+      "name": "SoftDev",
+      "position": "Junior Developer",
+      "startDate": "2015-01-01",
+      "endDate": "2018-04-01",
+      "summary": "Participación en proyectos de software y soporte técnico.",
+      "highlights": [
+        "Automatización de procesos",
+        "Soporte a usuarios"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Code4Good",
+      "position": "Mentor",
+      "url": "https://code4good.org/",
+      "startDate": "2020-01-01",
+      "endDate": "2021-12-01",
+      "summary": "Mentoría a jóvenes desarrolladores en proyectos sociales.",
+      "highlights": [
+        "Organización de talleres"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Politécnica de Madrid",
+      "url": "https://www.upm.es/",
+      "area": "Ingeniería Informática",
+      "studyType": "Grado",
+      "startDate": "2010-09-01",
+      "endDate": "2014-06-01",
+      "score": "8.5",
+      "courses": [
+        "Programación Avanzada",
+        "Bases de Datos"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Premio al Mejor Proyecto Web",
+      "date": "2021-11-01",
+      "awarder": "TechNova",
+      "summary": "Reconocimiento por el desarrollo de una plataforma innovadora."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificado en JavaScript Moderno",
+      "date": "2022-05-15",
+      "issuer": "OpenWebinars",
+      "url": "https://openwebinars.net/certificado-js"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Desarrollo Web con React",
+      "publisher": "TechBlog",
+      "releaseDate": "2022-03-01",
+      "url": "https://techblog.com/react-web",
+      "summary": "Guía práctica para crear aplicaciones web con React."
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "level": "Avanzado",
+      "keywords": [
+        "Backend",
+        "JavaScript",
+        "Servidor"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Intermedio",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Carlos Gómez",
+      "reference": "Carlos fue mi supervisor en TechNova y puede dar referencias sobre mi trabajo y desempeño profesional."
+    }
+  ],
+  "projects": [
+    {
+      "name": "codes",
+      "isActive": true,
+      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "highlights": [
+        "Elige tu propia aventura",
+        "En desarrollo"
+      ],
+      "url": "https://codes.dev"
+    },
+    {
+      "name": "programacion",
+      "isActive": true,
+      "description": "Retos de programación para todos los niveles",
+      "highlights": [
+        "Más de un millón de visitas",
+        "Multidioma",
+        "JavaScript & TypeScript"
+      ],
+      "url": "https://programacion.dev"
+    },
+    {
+      "name": "proyectosdesarrollo",
+      "isActive": true,
+      "description": "Juego interactivo de programación con retos y secretos",
+      "highlights": [
+        "+2000 usuarios activos",
+        "Retos para cualquier lenguaje"
+      ],
+      "url": "https://proyectosdesarrollo.dev"
+    },
+    {
+      "name": "codi.link",
+      "isActive": true,
+      "description": "Playground de código HTML, CSS y JavaScript para compartir",
+      "highlights": [
+        "100k visitas al mes",
+        "Desarrollado por la comunidad"
+      ],
+      "url": "https://codi.link",
+      "github": "https://github.com/codi-link"
+    },
+    {
+      "name": "Pruebas Técnicas",
+      "isActive": true,
+      "description": "Lista de pruebas técnicas de empresas para practicar programación",
+      "highlights": [
+        "100% gratuito",
+        "+500 pruebas disponibles"
+      ],
+      "url": "https://pruebastecnicas.com",
+      "github": "https://github.com/pruebastecnicas"
+    },
+    {
+      "name": "ponencia",
+      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
+      "highlights": [
+        "+15k tickets repartidos",
+        "+50k espectadores en directo"
+      ],
+      "url": "https://paginaweb.com"
+    }
+  ]
+}

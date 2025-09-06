@@ -1,0 +1,65 @@
+---
+// Header.astro
+---
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="logo" aria-label="Astro Home">
+      <img src="/assets/astro.svg" alt="Astro Logo" />
+    </a>
+    <nav aria-label="Navegación principal">
+      <ul class="nav-links">
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/about">Acerca</a></li>
+        <li><a href="/contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    background-color: #fafafa;
+    padding: 0.5rem 1rem;
+    font-family: system-ui, sans-serif;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo img {
+    height: 28px;
+    opacity: 0.85;
+    transition: opacity 0.2s ease;
+  }
+
+  .logo img:hover {
+    opacity: 1;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 0.75rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding: 0.25rem 0.5rem;
+    transition: color 0.2s ease;
+  }
+
+  .nav-links a:hover {
+    color: #000;
+  }
+</style>
