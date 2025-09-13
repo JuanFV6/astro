@@ -1,108 +1,129 @@
 ---
-import astroLogo from '../assets/astro.svg';
-import background from '../assets/background.svg';
+import '../styles/global.css';
 ---
-<footer class="footer">
-  <div class="footer-container">
-    <div class="footer-left">
-      <p class="footer-brand">
-        Made with Colombia <span class="year-tag">2025</span>
-      </p>
-      <span class="footer-meta">
-        @JuanFV6 —
-        <a href="https://github.com/withastro/astro" target="_blank" rel="noopener noreferrer">
-          GitHub
-        </a>
-      </span>
-    </div>
 
-    <div class="footer-right">
-      <h5 class="footer-author">
-        Juan Felipe Vidal
-      </h5>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Ingeniería de Software</h3>
+        <p>Desarrollo de soluciones innovadoras con las mejores prácticas de ingeniería.</p>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Enlaces Rápidos</h4>
+        <ul class="footer-links">
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/about">Acerca</a></li>
+          <li><a href="/projects">Proyectos</a></li>
+          <li><a href="/contact">Contacto</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Conectemos</h4>
+        <div class="social-links">
+          <a href="#" aria-label="GitHub">GitHub</a>
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+          <a href="#" aria-label="Twitter">Twitter</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>Hecho con ❤️ en Colombia <span class="year">2025</span></p>
+      <p>© 2025 Juan Felipe Vidal. Todos los derechos reservados.</p>
     </div>
   </div>
 </footer>
 
 <style>
   .footer {
-    background-color: #f4f4f4;
-    padding: 1rem 1.5rem;
-    font-family: 'Inter', sans-serif;
-    border-top: 1px solid #ddd;
+    background: linear-gradient(135deg, var(--color-darker) 0%, var(--color-dark) 100%);
+    color: var(--color-white);
+    padding: var(--spacing-xl) 0 var(--spacing-lg);
   }
-
-  .footer-container {
-    max-width: 960px;
-    margin: 0 auto;
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--spacing-xl);
+    margin-bottom: var(--spacing-xl);
+  }
+  
+  .footer-section h3,
+  .footer-section h4 {
+    color: var(--color-white);
+    margin-bottom: var(--spacing-md);
+  }
+  
+  .footer-section p {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+  }
+  
+  .footer-links {
+    list-style: none;
+  }
+  
+  .footer-links li {
+    margin-bottom: var(--spacing-sm);
+  }
+  
+  .footer-links a {
+    color: rgba(255, 255, 255, 0.8);
+    transition: color var(--transition-fast);
+  }
+  
+  .footer-links a:hover {
+    color: var(--color-primary-light);
+  }
+  
+  .social-links {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
+    gap: var(--spacing-md);
   }
-
-  .footer-left {
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
+  
+  .social-links a {
+    color: var(--color-white);
+    padding: var(--spacing-sm) var(--spacing-md);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: var(--border-radius);
+    transition: background-color var(--transition-fast);
   }
-
-  .footer-brand {
-    font-size: 1.125rem;
-    font-weight: 500;
-    color: #333;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+  
+  .social-links a:hover {
+    background: rgba(255, 255, 255, 0.2);
   }
-
-  .year-tag {
-    background-color: #e63946;
-    color: #fff;
-    padding: 0.2rem 0.5rem;
-    border-radius: 4px;
-    font-size: 0.95rem;
+  
+  .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: var(--spacing-lg);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
   }
-
-  .footer-meta {
-    font-size: 0.85rem;
-    color: #666;
-    text-transform: uppercase;
+  
+  .footer-bottom p {
+    margin-bottom: var(--spacing-xs);
   }
-
-  .footer-meta a {
-    color: #0077cc;
-    text-decoration: none;
-  }
-
-  .footer-meta a:hover {
-    text-decoration: underline;
-  }
-
-  .footer-right {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-
-  .footer-author {
-    font-size: 1rem;
+  
+  .year {
+    background: var(--color-primary);
+    color: var(--color-white);
+    padding: 2px 8px;
+    border-radius: 12px;
     font-weight: 600;
-    color: #222;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    text-transform: uppercase;
   }
-
-  .logo-img {
-    height: 32px;
-    opacity: 0.85;
-    transition: opacity 0.2s ease;
-  }
-
-  .logo-img:hover {
-    opacity: 1;
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      grid-template-columns: 1fr;
+      gap: var(--spacing-lg);
+      text-align: center;
+    }
+    
+    .social-links {
+      justify-content: center;
+    }
   }
 </style>
