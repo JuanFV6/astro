@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Juan Martínez",
+    "name": "Juan Felipe Vidal",
     "label": "Full Stack Developer",
     "image": "https://avatars.githubusercontent.com/u/12345678?v=4",
-    "email": "juan.martinez@email.com",
-    "phone": "+34 600123456",
+    "email": "juanfexvidal@email.com",
+    "phone": "+57 312 275 9024",
     "url": "https://juanmartinez.dev",
     "summary": "Apasionado por la tecnología y el desarrollo de soluciones innovadoras en web y software. Experiencia en proyectos multidisciplinarios y liderazgo técnico.",
     "location": {
       "address": "Calle Mayor 123",
       "postalCode": "28001",
-      "city": "Madrid",
+      "city": "Pasto",
       "countryCode": "ES",
-      "region": "Madrid"
+      "region": "Pasto"
     },
     "profiles": [
       {
@@ -22,8 +22,8 @@
       },
       {
         "network": "GitHub",
-        "username": "juanmartinezdev",
-        "url": "https://github.com/juanmartinezdev"
+        "username": "JuanFV6",
+        "url": "https://github.com/JuanFV6"
       }
     ]
   },
